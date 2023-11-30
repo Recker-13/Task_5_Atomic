@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins','sans-serif';
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(47, 46, 46);
+}
+
+.box1{
+    background-color: rgb(128, 125, 125);
+    width: 30%;
+    height: 400px;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.8);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 300px;
+    border-radius: 10px;
+    
+}
+
+.box1 h2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 40px;
+    color: aliceblue;
+}
+
+.box1 h3{
+    color: whitesmoke;
+    padding-left: 50px;
+    font-size: large;
+}
+
+.box1 form input{
+    padding-left: 350px;
+    margin-left: 50px;
+    line-height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(174, 170, 170);
+}
+
+.box1 button{
+    margin-top: 30px;
+    width: 515px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border: none;
+    line-height: 40px;
+    background-color: red;
+    color: whitesmoke;
+    font-size: larger;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.box1 h4{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box1 a{
+    margin-left: 260px;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+/*==================================================================================*/
+
+
+.box2{
+    background-color: rgb(128, 125, 125);
+    width: 30%;
+    height: 500px;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.8);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 300px;
+    border-radius: 10px;
+    
+}
+
+.box2 h2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 40px;
+    color: aliceblue;
+}
+
+.box2 h3{
+    color: whitesmoke;
+    padding-left: 50px;
+    font-size: large;
+}
+
+.box2 form input{
+    padding-left: 350px;
+    margin-left: 50px;
+    line-height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(174, 170, 170);
+}
+
+.box2 button{
+    margin-top: 30px;
+    width: 515px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border: none;
+    line-height: 40px;
+    background-color: red;
+    color: whitesmoke;
+    font-size: larger;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.box2 h4{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box2 a{
+    margin-left: 290px;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+
+
+@media(max-width: 750px){
+    .box1{
+        width: 350px;
+        margin-top: 100px;
+    }
+    .box1 form input{
+        width: 70%;
+        margin: 0;
+        padding: 0;
+        margin-left: 50px;
+    }
+    .box1 button{
+        width: 250px;
+    }
+    .box1 h4{
+        margin-left: 15px;
+    }
+    .box1 a{
+        margin-left: 130px;
+    }
+
+    .box2{
+        width: 350px;
+        margin-top: 100px;
+    }
+
+    .box2 form input{
+        width: 250px;
+        margin: 0;
+        padding: 0;
+        margin-left: 50px;
+    }
+
+    .box2 button{
+        width: 250px;
+    }
+
+    .box2 h4{
+        margin-left: 10px;
+    }
+
+    .box2 a{
+        margin-left: 160px;
+    }
+
+}
